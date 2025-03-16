@@ -47,5 +47,5 @@ def send_things3_todos(body):
     finally:
         server.quit()
 
-#if __name__ == "__main__":
-#    send_things3_todos('asdf')
+if __name__ == "__main__":
+    send_things3_todos('asdf')
