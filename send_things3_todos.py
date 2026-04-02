@@ -9,6 +9,8 @@ def send_things3_todos(body):
     sender_password = "ibex aikv cfoi aoyf"
     receiver_email = "oyvind.auk@gmail.com" # todo: use .env or something!
 
+    # TODO: send to craft tomorrow page
+
     # Create message
     msg = MIMEMultipart()
     msg['From'] = sender_email
